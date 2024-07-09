@@ -31,21 +31,12 @@ h2 {
 }
 
 .section1 {
-    position: relative;
-    width: min(100%, 1440px);
     height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 50px;
-}
-
-.section1_cover {
-    height: 550px;
-    position: relative;
-}
-
-.section1_cover {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+    background-image: url("../imiges/section1_cover.png");
 }
 
 .section1_title {
@@ -53,22 +44,12 @@ h2 {
     font-size: 50px;
     font-weight: 400;
     line-height: 75px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 18px;
     color: #FFFFFF;
-    margin: auto;
 }
 
 .section1_aticle {
-    position: absolute;
-    width: calc(100% - 762px);
     padding: 34px 40px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .section1_p {
@@ -78,4 +59,8 @@ h2 {
     line-height: 28px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.section2{
+    height: 389px;
 }
