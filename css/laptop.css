@@ -1,1 +1,32 @@
 /* 1439px-769px */
+@media (max-width:1024px) {
+    .section1_title {
+        font-size: 50px;
+        line-height: 75px;
+    }
+
+    .section1_p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .h5 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .section_cards_p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .h6 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    /* ინსტრუქციაში გეწერათ, რომ მხოლოდ font-size-ი და line-height-ი უნდა შეგვეცვალა და კი დავწერე მაგრამ საიტი ისეთი მაინც არ გამოვიდა, როგორც figma-შია */

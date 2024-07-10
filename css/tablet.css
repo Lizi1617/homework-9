@@ -1,5 +1,31 @@
-@media (max-width:630px){
-    .section1_p{
-        font-size: 20px;
+/* 768px-481px */
+@media (max-width:834px){
+    .section1_title {
+        font-size: 50px;
+        line-height: 75px;
     }
+
+    .section1_p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .h5 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .section_cards_p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .h6 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    p {
+        font-size: 24px;
+        line-height: 32px;
     }
